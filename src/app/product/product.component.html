@@ -1,0 +1,17 @@
+<p>
+  product works!
+</p>
+
+<ul class="heroes">
+  <!-- 
+    Angular classbinding
+    [class.anyClassWichShouldBeAppended]="Condition (Bedingung)" 
+  -->
+  <li *ngFor="">
+    <a routerLink="/detail/{{hero.id}}">
+      <span class="badge"></span>
+    </a>
+    <button class="delete" title="delete product"
+    (click)="delete(product)">x</button>
+  </li>
+</ul>
