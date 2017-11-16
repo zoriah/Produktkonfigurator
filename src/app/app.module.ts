@@ -18,6 +18,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { ProductComponent } from './product/product.component';
 import { ProductService } from './product-service/product.service';
+import { FileInputComponent } from './file-input/file-input.component';
 
 /**
  * This is the root AngularModule (NgMOdule). Anything will be deklared
@@ -40,7 +41,8 @@ import { ProductService } from './product-service/product.service';
     MessagesComponent,
     DashboardComponent,
     HeroSearchComponent,
-    ProductComponent
+    ProductComponent,
+    FileInputComponent
   ],
   imports: [
     BrowserModule,
